@@ -1,0 +1,113 @@
+## Example Config file
+BaseURL: "https://example.com"
+theme: "xshell"
+title: "glepnir blog"
+
+params:
+  description: "personal blog"
+  prompt: "root@1227"
+  promptColor: green
+  promptSimbols: ":~$"
+# promptSimbolsColor: grey
+  startxLocation: https://example.com
+# hideSocialName: true
+# exitLocation: 'about:blank'
+  greeting: | 
+    Welcome to my online blog terminal
+    Press <TAB> for autocomplete
+    Type 'help' for a list of available commands
+  whoami:
+      name: "glepnir"
+      location: "China"
+      email: "glepnir@neovim.pro"
+      bilibili: "https://space.bilibili.com/321783076/"
+      homelink: "https://yupdo.org"
+      description: |
+        A vimer work at neovim and other opensource projects.
+  social:
+    ## IF you want to keep them aligned just add spaces
+    - name: "github"
+      url: "          https://github.com/glepnir"
+    - name: "bilibili"
+      url: "        https://space.bilibili.com/321783076/"
+
+  work:
+    - jobTitle: Backend developer
+      color: teal
+      company: 'Tencent' 
+      location: China
+      date: August 2015 - Present
+      description: microservices backend using C++ Golang Rust
+
+  education:
+   - courseName: 重庆邮电大学
+     color: red
+     date: June 2009 - July 2015
+     description: computer sicence
+
+  skills:
+    - name: C C++ Rust Zig Go Python Js
+      color: blue
+      percentage: 90
+      description: All the language that i learned and used
+
+    - name: Redis Mysql Mongo Postgres Electsearch
+      color: blue
+      percentage: 50
+      description: All the database that i learned and used
+
+    - name: neovim
+      color: blue
+      percentage: 100
+      description: my favorite editor
+
+  languages:
+    - name: English
+      color: Blue
+      percentage: 50
+      #description: 
+
+  projects:
+    - title: lspsaga.nvim
+      color: teal
+      date: since 2021
+      link: https://github.com/glepnir/lspsaga.nvim
+      description: Enhance the neovim builtin lsp
+
+    - title: dashboard-nvim
+      color: teal
+      date: since 2020
+      link: https://github.com/glepnir/dashboard-nvim
+      description: A fancy and fast neovim start screen plugin
+
+  donate: 
+    title: "Donate me for my projects"
+    titleColor: teal
+    content: |
+      if you'd like to support my work financially, buy me a drink through GitHub Sponsor WeChat AliPay<br>
+
+      <img src="/images/wechat.png" title ="Wechat"/>
+      <img src="/images/alipay.png" title="Alipay"/>
+    contentColor: orange
+
+  utteranc:
+    enable: true
+    repo: "glepnir/glepnir.github.io"
+    issueTerm: "title"
+    theme: "github-light"
+
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: false
+    lineNumbersInTable: true
+    noClasses: true
+    noHl: false
+    style: catppuccin-macchiato
+    tabWidth: 4

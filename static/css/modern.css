@@ -1,0 +1,19 @@
+
+body {
+    width: 100%;
+    font-size: 24px;
+}
+
+.terminal progress {
+  background: lightseagreen;
+  border-radius: 1em;
+  overflow: hidden;
+}
+
+.terminal .date {
+  color:#d1b27d;
+}
+
+.terminal a {
+  color:#29a7d9;
+}
